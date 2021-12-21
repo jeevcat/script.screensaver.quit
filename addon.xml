@@ -1,29 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.screensaver.quit" name="Quit Kodi Screensaver" version="1.0.0" provider-name="jeevcat">
+<addon id="script.screensaver.quit" name="Quit" version="1.0.0" provider-name="jeevcat">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 	</requires>
 	<extension point="xbmc.ui.screensaver" library="default.py" />
 	<extension point="xbmc.addon.metadata">
-		<platform>
-			all
-		</platform>
-		<summary lang="en">
-			Quit Kodi Screensaver
-		</summary>
-		<description lang="en">
-			Quit Kodi Screensaver
-		</description>
-		<assets>
-			<icon>
-				icon.png
-			</icon>
-		</assets>
-		<news>
-			Initial release of an Example Screensaver Add-on to help new developers build on
-		</news>
-		<source>
-			https://github.com/jeevcat/script.screensaver.quit
-		</source>
+		<platform>all</platform>
+		<summary lang="en">Screensaver that quits Kodi</summary>
+		<description lang="en">Screensaver that quits Kodi</description>
+		<assets><icon>icon.png</icon></assets>
+		<source>https://github.com/jeevcat/script.screensaver.quit</source>
 	</extension>
 </addon>
